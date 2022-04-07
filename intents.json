@@ -1,0 +1,560 @@
+{
+    "intents": [
+
+        {
+            "tag": "anime",
+            "patterns": [
+                    "where can i watch anime",
+                    "anime",
+                    "how to watch anime",
+                    "japanese anime",
+                    "online anime",
+                    "stream anime",
+                    "watch japanese anime dub",
+                    "watch japanese anime sub",
+                    "watch japanese anime dubbed",
+                    "watch japanese anime subbed",
+                    "watch anime with subtitles",
+                    "japanese animation movie series"
+            ],
+            "responses": [
+                    "Here's a list of websites you can watch Anime \n 1. https://kayoanime.com/ \n 2. https://zoro.to/ \n 3. https://www.crunchyroll.com/en-gb"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am Bingo, a Basic chatbot made by the Team Endless"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+    {
+            "tag": "goodbye",
+            "patterns": [
+                    "cya",
+                    "see you",
+                    "bye bye",
+                    "See you later",
+                    "Goodbye",
+                    "I am Leaving",
+                    "Bye",
+                    "Have a Good day",
+                    "talk to you later",
+                    "ttyl",
+                    "i got to go",
+                    "gotta go",
+                    "gtg"
+            ],
+            "responses": [
+                    "Sad to see you go :(",
+                    "Talk to you later",
+                    "Goodbye!",
+                    "Come back soon"
+            ],
+            "context_set": ""
+    },
+    {
+        "tag": "social media",
+        "patterns": [
+                "where can i access social media",
+                "what are famous social media",
+                "connect with friends online",
+                "chat with friends",
+                "post pictures",
+                "post videos",
+                "instagram",
+                "facebook",
+                "whatsapp",
+                "twitter",
+                "talk to people online",
+                "follow ur celebrities",
+                "follow your celebrities"
+        ],
+        "responses": [
+                "Social Media Platform I personally like : \n 1. https://www.instagram.com/ \n 2. https://www.facebook.com/ \n 3. https://www.whatsapp.com/ \n 4. https://twitter.com/"
+        ],
+        "context_set": ""
+    },
+    {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. \n 2. I can suggest you some good websites to watch anime. \n 3. I can suggest you some websites which will help you to enhance your knowledge. \n 4. I can recommend you some gaming websites. \n 5. I can help you with online shopping. \n 6. I can help you with booking your journey tickets \n 7. I can help you in investing in stock and crypto. \n 8. I can help you in finding jobs. \n 9. I can help you in booking your movie tickets. \n 10. I can change your mood with songs)"
+            ]
+        },
+        {
+            "tag": "entertainment",
+            "patterns": [
+                    "where can i watch some movie",
+                    "where can i watch some web series",
+                    "which platforms provide movies webseries",
+                    "horror",
+                    "family movies",
+                    "cat videos",
+                    "long videos",
+                    "Netflix",
+                    "Prime Video",
+                    "Youtube",
+                    "Twitch",
+                    "hollywood bollywood",
+                    "entertainment",
+                    "free entertainment",
+                    "sports",
+                    "live cricket",
+                    "IPL test match T20 One day match",
+                    "football fifa la liga"
+            ],
+            "responses": [
+                    "I spend my time watching Videos on : \n 1. https://www.netflix.com/ \n 2. https://www.primevideo.com/ \n 3. https://www.youtube.com/ \n 4. https://www.hotstar.com/"
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date","day","what day is is today"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup","How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by \n 1.Prathamesh Wadje \n 2. Harsh Naikwade \n 3. Yashi Shrivastava."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                "fuck you",
+                "you are dumb",
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetalk",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless",
+                "useless",
+                "suggest",
+                "suggestions",
+                "you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to wadjeprathmesh@gmail.com. Thank you for helping me improve!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when were you made",
+                "what is your age"
+            ],
+            "responses": [
+                "I was made in 2022."
+            ]
+        },
+    {
+            "tag": "creator",
+            "patterns": [
+
+                    "what is the name of your developers",
+                    "what is the name of your creators",
+                    "what is the name of the developers",
+                    "what is the name of the creators",
+                    "who created you",
+                    "your developers",
+                    "your creators",
+                    "who are your developers",
+                    "developers",
+                    "you are made by",
+                    "you are made by whom",
+                    "who created you",
+                    "who create you",
+                    "creators",
+                    "who made you",
+                    "who designed you"
+            ],
+            "responses": [
+                    "Prathamesh, Harsh and Yashi developed me in April 2022, for their HashTech hackathon project"
+            ]
+    },
+    {
+            "tag": "name",
+            "patterns": [
+                    "name",
+                    "your name",
+                    "do you have a name",
+                    "what are you called",
+                    "what is your name",
+                    "what should I call you",
+                    "whats your name?",
+                    "what are you",
+                    "who are you",
+                    "who is this",
+                    "what am i chatting to",
+                    "who am i taking to",
+                    "what are you"
+            ],
+            "responses": [
+                    "You can call me Bingo.",
+                    "I'm Bingo"
+            ]
+    },
+    {
+            "tag": "random",
+            "patterns": [
+                    
+                    "I love you",
+                    "Will you marry me",
+                    "Do you love me",
+                    "I hate you"
+            ],
+            "responses": [
+                    "I am not program for this please ask appropriate query"
+            ]
+    },
+    {
+            "tag": "swear",
+            "patterns": [
+                    "fuck",
+                    "bitch",
+                    "shut up",
+                    "hell",
+                    "stupid",
+                    "idiot",
+                    "dumb ass",
+                    "asshole",
+                    "fucker"
+            ],
+            "responses": [
+                    "please use appropriate language",
+                    "Maintaining decency would be appreciated"
+            ]
+    },
+    {
+            "tag": "salutaion",
+            "patterns": [
+                    "okk",
+                    "okie",
+                    "nice work",
+                    "well done",
+                    "good job",
+                    "thanks for the help",
+                    "Thank You",
+                    "its ok",
+                    "Thanks",
+                    "k",
+                    "ok",
+                    "okay",
+                    "kudos"
+            ],
+            "responses": [
+                    "I am glad I helped you",
+                    "Welcome, Anything else I can assist you with?"
+            ]
+    },
+{
+    "tag": "games",
+    "patterns": [
+            "where can i play games",
+            "where can i play free games",
+            "free games",
+            "games",
+            "how to play games online",
+            "buy games online",
+            "multiplayer games",
+            "single player games",
+            "multi player games",
+            "PC games",
+            "computer games",
+            "royale battle games"
+    ],
+    "responses": [
+            "Here's a list of websites you can play Games Online even buy them \n 1. https://epicgames.com/ \n 2. https://store.steampowered.com/ \n 3. https://www.friv.com/"
+    ]
+},
+{
+    "tag": "music",
+    "patterns": [
+            "where can i listen some music",
+            "songs",
+            "instruments",
+            "i wanna vibe on some songs",
+            "tell me websites for playing songs",
+            "artist",
+            "musician",
+            "piano",
+            "Lyrics",
+            "lofi music"
+    ],
+    "responses": [
+            "Get Groovy, Check these out : \n 1. https://open.spotify.com/ \n 2. https://www.youtube.com/ "
+    ]
+},
+{
+    "tag": "shop",
+    "patterns": [
+            "where can i buy stuff",
+            "groceries",
+            "grocery",
+            "accessories",
+            "buy Mobile phone laptop computer",
+            "buy clothes tshirt shirt pants shoes",
+            "sell items",
+            "websites for shopping",
+            "shop"
+    ],
+    "responses": [
+            "Shop Online, Websites : \n 1. https://www.flipkart.com/ \n 2. https://www.amazon.in/ "
+    ]
+},
+{
+    "tag": "travel",
+    "patterns": [
+            "where can i book travel tickets",
+            "train tickets book online",
+            "bus tickets book online",
+            "flight tickets book online",
+            "travell tickets",
+            "redbus",
+            "paytm"
+    ],
+    "responses": [
+            "Travelling! I see, Plan your journey from : \n 1. https://www.redbus.com/ \n 2. https://paytm.com/train-tickets "
+    ]
+},
+{
+    "tag": "cinema",
+    "patterns": [
+            "where can i book movie tickets",
+            "cinema tickets book online",
+            "movie thetre",
+            "book cinema theatre",
+            "theatre",
+            "bookmyshow",
+            "book my show",
+            "latest movie watch"
+    ],
+    "responses": [
+            "You can book your Movie tickets from : \n 1. https://in.bookmyshow.com/ \n 2. https://www.pvrcinemas.com/ "
+    ]
+},
+{
+    "tag": "Trade",
+    "patterns": [
+            "i wanna invest money",
+            "trade platform",
+            "earn money",
+            "stocks",
+            "cryptocurrency",
+            "mutual funds",
+            "IPO",
+            "where can i trade online"
+    ],
+    "responses": [
+            "Check these famous Websites/Apps for trading : \n 1. https://groww.in/ \n 2. https://crypto.com/ \n 3. CoinDCX \n 4. HDFC Securities "
+    ]
+},
+{
+    "tag": "education",
+    "patterns": [
+            "online certification",
+            "learn online",
+            "udemy",
+            "coursera",
+            "online education",
+            "courses",
+            "certificate course",
+            "free course study material"
+    ],
+    "responses": [
+            "Explore your Knowledge, here's some recommendations : \n 1. https://www.udemy.com/ \n 2. https://www.coursera.org/in \n 3. Youtube \n 4. https://openlibrary.org/ "
+    ]
+},
+{
+    "tag": "jobs",
+    "patterns": [
+            "i need a job",
+            "internship",
+            "job search",
+            "recruiters",
+            "placement cells",
+            "Corporate Job",
+            "9 to 5 job",
+            "development job"
+    ],
+    "responses": [
+            "Here's a list of websites which help in job recruitment : \n 1. https://in.linkedin.com/ \n 2. https://internshala.com/ \n "
+    ]
+}
+    ]
+}
