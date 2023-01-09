@@ -1,4 +1,4 @@
-# Bingo_Chatbot
+# Bingo Chatbot
 
 ![Screenshot_20230109_105020](https://user-images.githubusercontent.com/97459506/211368616-4b6194ef-bea5-487d-ae30-2e8a79bcb486.png)
 
